@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: 'registry-Server'
+  cloud:
+    config:
+      https://configservera.azurewebsites.net
+      #uri:http://localhost:8888
+
+
+
+server:
+  port: 8760
+#  port: 0 # rando
+#  default port is 8761
+
+
+
+
